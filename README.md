@@ -36,7 +36,7 @@ A default apache virtual host gets created during the install and this is the do
 
 To make sure that your LAMP server is working properly, browse to:
 
-[http://localhost:8080](http://localhost:8080)
+[http://localhost:8000](http://localhost:8000)
 
 If you see a success page, you know things are working.
 
