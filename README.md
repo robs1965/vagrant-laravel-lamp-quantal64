@@ -1,4 +1,6 @@
-# LAMP Server for grok
+# LAMP Server for Grok Interactive
+
+**Ubuntu 12.10 Quantal x86_64 (Guest Additions 4.2.2) + Apache + PHP 5.4 + MySQL + Composer**
 
 This repository contains vagrant and puppet scripts to setup a LAMP server.
 
