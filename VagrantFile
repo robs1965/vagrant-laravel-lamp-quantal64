@@ -5,7 +5,7 @@
 # grok LAMP Server Setup
 #############################
 
-box      = 'quantal64'
+box      = 'grok-quantal64'
 hostname = 'quantal'
 domain   = 'grok.dev'
 ip       = '192.168.42.42'
@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = box
 
   config.vm.host_name = hostname + '.' + domain
-  config.vm.network :forwarded_port, guest: 80, host: 8080
+  config.vm.network :forwarded_port, guest: 80, host: 8000
   config.vm.network :private_network, ip: ip
 
   config.vm.synced_folder ".", "/vagrant", :mount_options => ["dmode=777","fmode=666"]
