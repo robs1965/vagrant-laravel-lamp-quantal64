@@ -15,7 +15,7 @@ This repository contains vagrant and puppet scripts to setup a LAMP server.
 First, you will need to import the box file into vagrant. Use the following command:
 
 ```
-vagrant box add quantal64 /path/to/quantal64.box
+vagrant box add grok-quantal64 /path/to/quantal64.box
 ```
 
 Next, clone this repo, and `cd` into the new directory. Then, you can use the following command:
@@ -27,7 +27,7 @@ vagrant up
 Within a few minutes, you will have a complete LAMP server running in a VM (virtual machine). While the VM is being initialized, go ahead and add the following entry to the hosts file on the host computer (not the VM):
 
 ```
-192.168.77.77    grok.dev
+192.168.42.42    grok.dev
 ```
 
 A default apache virtual host gets created during the install and this is the domain that is used.  
@@ -66,7 +66,7 @@ An example site, grok.dev, is included in the /sites directory of this repo. You
 - Save and close the file: `:wq`
 - Enable your new site: `sudo a2ensite domain.dev`
 - Restart Apache using: `sudo service apache2 reload`
-- Add an entry to your host OS's hosts file: `192.168.77.77  domain.dev`
+- Add an entry to your host OS's hosts file: `192.168.42.42  domain.dev`
 - All done! Now browse to: `http://domain.dev` to access your site.
 
 
