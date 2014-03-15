@@ -8,7 +8,7 @@
 box      = 'quantal64'
 hostname = 'quantal'
 domain   = 'grok.dev'
-ip       = '192.168.77.77'
+ip       = '192.168.42.42'
 ram      = '512'
 
 # # # DO NOT MODIFY ANYTHING BELOW THIS LINE # # #
