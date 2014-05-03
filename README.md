@@ -1,4 +1,4 @@
-# LAMP Server for Grok Interactive
+# LAMP Server  - Laravel Ready
 
 **Ubuntu 12.10 Quantal x86_64 (Guest Additions 4.2.2) + Apache + PHP 5.4 + MySQL + Composer**
 
